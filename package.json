@@ -2,7 +2,6 @@
   "name": "react-practice",
   "version": "1.0.0",
   "description": "This project contains the practice code and notes of Namaste React Series",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
@@ -22,5 +21,9 @@
   "homepage": "https://github.com/Karyalay-Mayank/react-practice#readme",
   "devDependencies": {
     "parcel": "^2.15.0"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }

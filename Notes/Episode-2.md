@@ -1,15 +1,16 @@
 # What is NPM
-## A package manager used to take care of packages (like versions) which we install locally and remotelly.
+**## **A package manager used to take care of packages (like versions) which we install locally and remotelly.**
 
 # Use of package.json
 **It is a configuration file of npm.**
+**It keeps the track of the versions of installed packages**
 
 **There are two type of packages we install i.e. dev dependency and normal depency**
 
 - Dev dependencies are generally required in development phase only
 - Normal dependencies are used in development phase as well as in production
 
-- We can install a package as dev dependency by using: npm install -D package-name
+- We can install a package as dev dependency by using: `npm install -D package-name`
 
 
 # Version Ranges: `~` i.e Tilde vs `^` i.e Caret
@@ -38,3 +39,13 @@
 |--------|---------------------|-------------------|----------------------------|
 | `~`    | Patch only          | `1.2.3` to `<1.3.0` | Safe updates, no new features |
 | `^`    | Minor + Patch       | `1.2.3` to `<2.0.0` | New features, still compatible |
+
+
+# Use of package-lock.json
+**It keeps the track of exact version i.e installed currently.**
+- **Intergity**: Use to keep exact hash of current used version to eliminate conflict on production and in other developer's system 
+
+
+# Ignite app using parcel (the currently used Bundler)
+- **To use parcel as a bundler we have to install it in our project by doing: `npm install -D parcel`**
+- **To ignite our app with parcel we have to do `npx parcel index.html`**
