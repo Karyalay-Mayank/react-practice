@@ -2,14 +2,14 @@
 ## A package manager used to take care of packages (like versions) which we install locally and remotelly.
 
 # Use of package.json
-## It is a configuration file of npm.
+**It is a configuration file of npm.**
 
-## There are two type of packages we install i.e. dev dependency and normal depency
+**There are two type of packages we install i.e. dev dependency and normal depency**
 
-## Dev dependencies are generally required in development phase only
-## Normal dependencies are used in development phase as well as in production
+- Dev dependencies are generally required in development phase only
+- Normal dependencies are used in development phase as well as in production
 
-## We can install a package as dev dependency by using: npm install -D package-name
+- We can install a package as dev dependency by using: npm install -D package-name
 
 
 # Version Ranges: `~` i.e Tilde vs `^` i.e Caret
