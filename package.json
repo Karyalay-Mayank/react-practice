@@ -1,0 +1,26 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "This project contains the practice code and notes of Namaste React Series",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karyalay-Mayank/react-practice.git"
+  },
+  "keywords": [
+    "namaste-react",
+    "react"
+  ],
+  "author": "Mayank Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karyalay-Mayank/react-practice/issues"
+  },
+  "homepage": "https://github.com/Karyalay-Mayank/react-practice#readme",
+  "devDependencies": {
+    "parcel": "^2.15.0"
+  }
+}
