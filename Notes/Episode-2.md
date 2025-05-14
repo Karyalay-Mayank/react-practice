@@ -49,3 +49,22 @@
 # Ignite app using parcel (the currently used Bundler)
 - **To use parcel as a bundler we have to install it in our project by doing: `npm install -D parcel`**
 - **To ignite our app with parcel we have to do `npx parcel index.html`**
+
+## Use of Parcel
+- Dev Build
+- Run Locl Server
+- Hot Module Replacement - HMR
+- Use a File watching algorithm which is written in C++
+- Caching - Falster Builds (Store cache in .parcel-cache folder)
+- Image Optimization
+- Minification of Files
+- Bundling
+- Compression of files
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling (To support older browsers means different bundles for different Browsers)
+- Diagnostics
+- Error Handling and suggestions
+- Gives way to move from HTTP to HTTPS
+- Tree Shaking (Removing unused code)
+- Different dev and production build (by build command for prod i.e. `npx parcel build index.html` , it will create a `dist` folder)
