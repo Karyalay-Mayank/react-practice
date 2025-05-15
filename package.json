@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This project contains the practice code and notes of Namaste React Series",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
